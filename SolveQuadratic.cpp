@@ -16,7 +16,7 @@ void SolveQuadratic()
     double discriminant = pow(b, 2.0) - 4.0*a*c;
     std::cout << std::fixed << std::setprecision(0) << "\nDiscriminant = " << discriminant << "\n";
     
-    std::cout << std::setprecision(3) << std::fixed; // all further numbers are displayed with 3 decimal places
+    std::cout << std::setprecision(4) << std::fixed; // all further numbers are displayed with 3 decimal places
 
     if(discriminant < 0)
     {
