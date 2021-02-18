@@ -2,8 +2,6 @@
 #include <cmath>
 #include <iomanip>
 
-//test2
-
 void SolveQuadratic()
 {
     std::cout << "------------------------------------------------------------\n";
